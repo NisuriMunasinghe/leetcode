@@ -17,7 +17,9 @@ class Solution {
                 if(nums[white_min+white_count]==2){
                     nums[i]=2;
                 }
-                nums[white_min+white_count]=1;
+                if(white_count!=0){
+                    nums[white_min+white_count]=1;
+                }
                 nums[white_min]=0;
                 white_min++;
                 
