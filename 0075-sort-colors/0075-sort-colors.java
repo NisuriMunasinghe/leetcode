@@ -21,8 +21,7 @@ class Solution {
                     nums[white_min+white_count]=1;
                 }
                 nums[white_min]=0;
-                white_min++;
-                
+                white_min++;               
             }       
     }
 }
